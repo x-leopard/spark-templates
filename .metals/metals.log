@@ -1,0 +1,435 @@
+2023.11.15 15:16:40 INFO  Started: Metals version 1.1.0 in folders '/workspaces/spark-templates' for client Visual Studio Code 1.84.2.
+2023.11.15 15:16:42 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.15 15:17:24 INFO  no build target found for /workspaces/spark-templates/build.sbt. Using presentation compiler with project's scala-library version: 3.3.1
+Nov 15, 2023 3:17:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+Nov 15, 2023 3:17:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+Nov 15, 2023 3:17:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+2023.11.15 15:17:26 WARN  no build target for: /workspaces/spark-templates/build.sbt
+Nov 15, 2023 3:17:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+Nov 15, 2023 3:17:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
+Nov 15, 2023 3:17:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+Nov 15, 2023 3:17:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42
+Nov 15, 2023 3:17:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 45
+2023.11.15 15:17:26 WARN  no build target for: /workspaces/spark-templates/build.sbt
+Nov 15, 2023 3:17:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+2023.11.15 15:17:26 WARN  no build target for: /workspaces/spark-templates/build.sbt
+2023.11.15 15:17:26 WARN  no build target for: /workspaces/spark-templates/project/plugins.sbt
+2023.11.15 15:17:34 INFO  skipping build import with status 'Dismissed'
+2023.11.15 15:17:40 WARN  no build target for: /workspaces/spark-templates/build.sbt
+2023.11.15 15:17:40 INFO  skipping build import with status 'Dismissed'
+2023.11.15 15:17:48 INFO  running '/usr/local/sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals13894540198665838883/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.15 15:17:48 WARN  no build target for: /workspaces/spark-templates/project/project/metals.sbt
+2023.11.15 15:17:48 WARN  no build target for: /workspaces/spark-templates/project/metals.sbt
+2023.11.15 15:17:49 INFO  skipping build import with status 'Dismissed'
+2023.11.15 15:17:49 ERROR [info] [launcher] getting org.scala-sbt sbt 1.3.13  (this may take some time)...
+2023.11.15 15:17:53 ERROR [info] [launcher] getting Scala 2.12.10 (for sbt)...
+2023.11.15 15:17:57 INFO  [info] welcome to sbt 1.3.13 (Microsoft Java 11.0.14.1)
+2023.11.15 15:18:00 INFO  [info] loading settings for project spark-templates-build-build-build from metals.sbt ...
+2023.11.15 15:18:01 INFO  [info] loading project definition from /workspaces/spark-templates/project/project/project
+2023.11.15 15:18:04 INFO  [info] loading settings for project spark-templates-build-build from metals.sbt ...
+2023.11.15 15:18:04 INFO  [info] loading project definition from /workspaces/spark-templates/project/project
+2023.11.15 15:18:08 INFO  [success] Generated .bloop/spark-templates-build-build.json
+2023.11.15 15:18:08 INFO  [success] Total time: 4 s, completed Nov 15, 2023, 3:18:08 PM
+2023.11.15 15:18:09 INFO  [info] loading settings for project spark-templates-build from plugins.sbt,metals.sbt ...
+2023.11.15 15:18:09 INFO  [info] loading project definition from /workspaces/spark-templates/project
+2023.11.15 15:18:14 INFO  [success] Generated .bloop/spark-templates-build.json
+2023.11.15 15:18:14 INFO  [success] Total time: 4 s, completed Nov 15, 2023, 3:18:14 PM
+2023.11.15 15:18:15 ERROR /workspaces/spark-templates/build.sbt:41: error: not found: value commonDependencies
+2023.11.15 15:18:15 ERROR   .settings(commonDependencies)
+2023.11.15 15:18:15 ERROR             ^
+2023.11.15 15:18:15 ERROR /workspaces/spark-templates/build.sbt:45: error: not found: value commonDependencies
+2023.11.15 15:18:15 ERROR   .settings(commonDependencies)
+2023.11.15 15:18:15 ERROR             ^
+2023.11.15 15:18:15 INFO  [error] sbt.compiler.EvalException: Type error in expression
+2023.11.15 15:18:15 INFO  [error] Use 'last' for the full log.
+2023.11.15 15:18:15 INFO  Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? 
+2023.11.15 15:18:15 INFO  time: ran 'sbt bloopInstall' in 26s
+2023.11.15 15:18:15 ERROR sbt command failed: /usr/local/sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals13894540198665838883/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.11.15 15:18:43 WARN  no build target for: /workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/SparkScalaCOSExample.scala
+2023.11.15 15:18:47 WARN  no build target for: /workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/SparkScalaCOSExample.scala
+2023.11.15 15:18:57 WARN  no build target for: /workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/SparkScalaCOSExample.scala
+2023.11.15 15:19:15 WARN  no build target for: /workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/ParagraphRecordReader.scala
+2023.11.15 15:19:18 WARN  Could not find semantic tokens for: file:///workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/SparkScalaSQLExample.scala
+2023.11.15 15:19:19 WARN  no build target for: /workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/SparkScalaSQLExample.scala
+2023.11.15 15:19:19 WARN  Could not find semantic tokens for: file:///workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/SparkScalaSQLExample.scala
+2023.11.15 15:19:19 WARN  Could not find semantic tokens for: file:///workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/SparkScalaSQLExample.scala
+2023.11.15 15:19:19 WARN  no build target for: /workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/SparkScalaSQLExample.scala
+2023.11.15 15:19:22 WARN  Could not find semantic tokens for: file:///workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/SparkScalaSQLExample.scala
+2023.11.15 15:19:23 WARN  no build target for: /workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/SparkScalaSQLExample.scala
+2023.11.15 15:19:28 WARN  no build target for: /workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/SparkScalaSQLExample.scala
+Nov 15, 2023 3:19:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 177
+2023.11.15 15:19:33 WARN  no build target for: /workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/SparkScalaSQLExample.scala
+Nov 15, 2023 3:19:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 200
+Nov 15, 2023 3:19:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 208
+2023.11.15 15:20:06 WARN  no build target for: /workspaces/spark-templates/build.sbt
+2023.11.15 15:20:06 INFO  skipping build import with status 'Failed'
+Nov 15, 2023 3:20:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /workspaces/spark-templates/build.sbt
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /workspaces/spark-templates/build.sbt
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /workspaces/spark-templates/build.sbt
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:469)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.11.15 15:21:02 WARN  Could not find semantic tokens for: file:///workspaces/spark-templates/scala/project/plugins.sbt
+2023.11.15 15:22:04 WARN  Could not find semantic tokens for: file:///workspaces/spark-templates/project/metals.sbt
+2023.11.15 15:22:05 WARN  Could not find semantic tokens for: file:///workspaces/spark-templates/project/plugins.sbt
+2023.11.15 15:22:23 WARN  Build server is not auto-connectable.
+2023.11.15 15:22:23 WARN  no build target for: /workspaces/spark-templates/scala/build.sbt
+2023.11.15 15:22:23 WARN  no build target for: /workspaces/spark-templates/project/plugins.sbt
+2023.11.15 15:22:23 WARN  no build target for: /workspaces/spark-templates/scala/project/plugins.sbt
+2023.11.15 15:22:23 WARN  no build target for: /workspaces/spark-templates/project/metals.sbt
+2023.11.15 15:22:23 WARN  Could not find semantic tokens for: file:///workspaces/spark-templates/project/plugins.sbt
+2023.11.15 15:22:23 WARN  no build target for: /workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/SparkScalaSQLExample.scala
+2023.11.15 15:22:23 WARN  no build target for: /workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/ParagraphRecordReader.scala
+2023.11.15 15:22:23 WARN  no build target for: /workspaces/spark-templates/build.sbt
+2023.11.15 15:22:23 WARN  no build target for: /workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/SparkScalaCOSExample.scala
+2023.11.15 15:22:23 WARN  Could not find semantic tokens for: file:///workspaces/spark-templates/project/plugins.sbt
+2023.11.15 15:22:24 WARN  Could not find semantic tokens for: file:///workspaces/spark-templates/project/plugins.sbt
+Nov 15, 2023 3:22:33 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.11.15 15:24:46 WARN  no build target for: /workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/ParagraphRecordReader.scala
+2023.11.15 15:24:51 WARN  Build server is not auto-connectable.
+2023.11.15 15:24:52 INFO  compilation cancelled
+2023.11.15 15:24:53 WARN  Build server is not auto-connectable.
+2023.11.15 15:25:07 WARN  no build target for: /workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/ParagraphRecordReader.scala
+2023.11.15 15:25:08 WARN  Build server is not auto-connectable.
+2023.11.15 15:25:10 WARN  no build target for: /workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/ParagraphRecordReader.scala
+2023.11.15 15:25:10 WARN  no build target for: /workspaces/spark-templates/build.sbt
+2023.11.15 15:25:10 WARN  no build target for: /workspaces/spark-templates/project/plugins.sbt
+2023.11.15 15:25:10 WARN  no build target for: /workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/SparkScalaSQLExample.scala
+Nov 15, 2023 3:25:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 346
+Nov 15, 2023 3:25:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 353
+Nov 15, 2023 3:25:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/SparkScalaSQLExample.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/SparkScalaSQLExample.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/SparkScalaSQLExample.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:469)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.11.15 15:25:58 WARN  no build target for: /workspaces/spark-templates/scala/src/main/scala/com/github/scrapcodes/scala/template/SparkScalaSQLExample.scala
+2023.11.15 15:27:56 WARN  no build target for: /workspaces/spark-templates/.metals/template/ParagraphRecordReader.scala
+2023.11.15 15:27:56 WARN  no build target for: /workspaces/spark-templates/.metals/template/SparkScalaSQLExample.scala
+2023.11.15 15:28:25 WARN  no build target for: /workspaces/spark-templates/scala/build.sbt
+2023.11.15 15:29:55 WARN  no build target for: /workspaces/spark-templates/project/metals.sbt
+2023.11.15 15:29:55 WARN  no build target for: /workspaces/spark-templates/project/plugins.sbt
+2023.11.15 15:30:21 WARN  no build target for: /workspaces/spark-templates/project/plugins.sbt
+2023.11.15 15:30:21 WARN  Could not find semantic tokens for: file:///workspaces/spark-templates/project/plugins.sbt
+2023.11.15 15:30:21 WARN  Could not find semantic tokens for: file:///workspaces/spark-templates/project/plugins.sbt
+Nov 15, 2023 3:30:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 391
+2023.11.15 15:31:07 WARN  no build target for: /workspaces/spark-templates/src/main/scala/com/ParagraphRecordReader.scala
+2023.11.15 15:31:07 WARN  no build target for: /workspaces/spark-templates/src/main/scala/com/SparkScalaSQLExample.scala
+2023.11.15 15:31:34 WARN  no build target for: /workspaces/spark-templates/src/main/scala/org/ParagraphRecordReader.scala
+2023.11.15 15:31:34 WARN  no build target for: /workspaces/spark-templates/src/main/scala/org/SparkScalaSQLExample.scala
+Nov 15, 2023 3:32:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 431
+Nov 15, 2023 3:32:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 436
+Nov 15, 2023 3:32:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 441
+Nov 15, 2023 3:32:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 446
+2023.11.15 15:32:38 WARN  no build target for: /workspaces/spark-templates/src/main/scala/org/bdf/test/ParagraphRecordReader.scala
+Nov 15, 2023 3:32:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 455
+2023.11.15 15:32:43 WARN  no build target for: /workspaces/spark-templates/src/main/scala/org/bdf/test/SparkScalaSQLExample.scala
+2023.11.15 15:32:50 WARN  no build target for: /workspaces/spark-templates/src/main/scala/org/bdf/test/ParagraphRecordReader.scala
+2023.11.15 15:32:56 WARN  no build target for: /workspaces/spark-templates/src/main/scala/org/bdf/custom/ParagraphRecordReader.scala
+2023.11.15 15:32:56 WARN  no build target for: /workspaces/spark-templates/src/main/scala/org/bdf/custom/SparkScalaSQLExample.scala
+2023.11.15 15:33:02 WARN  no build target for: /workspaces/spark-templates/src/main/scala/org/bdf/custom/SparkScalaSQLExample.scala
+Nov 15, 2023 3:33:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 508
+Nov 15, 2023 3:33:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 515
+2023.11.15 15:33:10 WARN  no build target for: /workspaces/spark-templates/build.sbt
+2023.11.15 15:33:24 WARN  no build target for: /workspaces/spark-templates/src/main/scala/org/bdf/custom/CustomInputFormat.scala
+2023.11.15 15:33:34 WARN  no build target for: /workspaces/spark-templates/src/main/scala/org/bdf/custom/CustomInputFormat.scala
+2023.11.15 15:33:38 WARN  no build target for: /workspaces/spark-templates/src/main/scala/org/bdf/custom/CustomInputFormat.scala
+Nov 15, 2023 3:33:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 600
+2023.11.15 15:33:51 WARN  no build target for: /workspaces/spark-templates/src/main/scala/org/bdf/custom/CustomInputFormat.scala
+2023.11.15 15:33:57 WARN  no build target for: /workspaces/spark-templates/src/main/scala/org/bdf/custom/CustomInputFormat.scala
+2023.11.15 15:34:21 WARN  no build target for: /workspaces/spark-templates/build.sbt
+2023.11.15 15:34:23 WARN  no build target for: /workspaces/spark-templates/build.sbt
+2023.11.15 15:34:35 WARN  no build target for: /workspaces/spark-templates/build.sbt
+2023.11.15 15:34:37 WARN  no build target for: /workspaces/spark-templates/build.sbt
+2023.11.15 15:34:54 WARN  Build server is not auto-connectable.
+2023.11.15 15:34:59 WARN  Build server is not auto-connectable.
+2023.11.15 15:35:00 INFO  compilation cancelled
+2023.11.15 15:35:01 WARN  Build server is not auto-connectable.
+2023.11.15 15:35:11 WARN  no build target for: /workspaces/spark-templates/build.sbt
+Nov 15, 2023 3:35:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /workspaces/spark-templates/build.sbt
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /workspaces/spark-templates/build.sbt
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2186)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /workspaces/spark-templates/build.sbt
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:469)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1857)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:880)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.11.15 15:36:35 INFO  running '/usr/local/sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals15907961082834932414/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.15 15:36:36 WARN  no build target for: /workspaces/spark-templates/project/metals.sbt
+2023.11.15 15:36:35 INFO  skipping build import with status 'Dismissed'
+2023.11.15 15:36:36 WARN  no build target for: /workspaces/spark-templates/project/project/metals.sbt
+2023.11.15 15:36:39 INFO  [info] welcome to sbt 1.3.13 (Microsoft Java 11.0.14.1)
+2023.11.15 15:36:42 INFO  [info] loading settings for project spark-templates-build-build-build from metals.sbt ...
+2023.11.15 15:36:42 INFO  [info] loading project definition from /workspaces/spark-templates/project/project/project
+2023.11.15 15:36:47 INFO  [info] loading settings for project spark-templates-build-build from metals.sbt ...
+2023.11.15 15:36:47 INFO  [info] loading project definition from /workspaces/spark-templates/project/project
+2023.11.15 15:36:50 INFO  [success] Generated .bloop/spark-templates-build-build.json
+2023.11.15 15:36:50 INFO  [success] Total time: 3 s, completed Nov 15, 2023, 3:36:50 PM
+2023.11.15 15:36:51 INFO  [info] loading settings for project spark-templates-build from plugins.sbt,metals.sbt ...
+2023.11.15 15:36:51 INFO  [info] loading project definition from /workspaces/spark-templates/project
+2023.11.15 15:36:53 INFO  [success] Generated .bloop/spark-templates-build.json
+2023.11.15 15:36:53 INFO  [success] Total time: 2 s, completed Nov 15, 2023, 3:36:53 PM
+2023.11.15 15:36:54 ERROR /workspaces/spark-templates/build.sbt:41: error: not found: value commonDependencies
+2023.11.15 15:36:54 ERROR   .settings(commonDependencies)
+2023.11.15 15:36:54 ERROR             ^
+2023.11.15 15:36:54 ERROR /workspaces/spark-templates/build.sbt:45: error: not found: value commonDependencies
+2023.11.15 15:36:54 ERROR   .settings(commonDependencies)
+2023.11.15 15:36:54 ERROR             ^
+2023.11.15 15:36:54 INFO  [error] sbt.compiler.EvalException: Type error in expression
+2023.11.15 15:36:54 INFO  [error] Use 'last' for the full log.
+2023.11.15 15:36:54 INFO  Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? 
+2023.11.15 15:36:54 INFO  time: ran 'sbt bloopInstall' in 19s
+2023.11.15 15:36:54 ERROR sbt command failed: /usr/local/sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals15907961082834932414/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.11.15 15:37:04 WARN  no build target for: /workspaces/spark-templates/project/metals.sbt
+2023.11.15 15:37:04 WARN  Could not find semantic tokens for: file:///workspaces/spark-templates/project/metals.sbt
+2023.11.15 15:37:04 WARN  Could not find semantic tokens for: file:///workspaces/spark-templates/project/metals.sbt
+2023.11.15 15:37:07 WARN  no build target for: /workspaces/spark-templates/project/plugins.sbt
+2023.11.15 15:37:07 WARN  Could not find semantic tokens for: file:///workspaces/spark-templates/project/plugins.sbt
+2023.11.15 15:37:08 WARN  Could not find semantic tokens for: file:///workspaces/spark-templates/project/plugins.sbt
+Nov 15, 2023 3:37:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 733
+2023.11.15 15:37:25 WARN  no build target for: /workspaces/spark-templates/build.sbt
+2023.11.15 15:37:25 INFO  skipping build import with status 'Dismissed'
+2023.11.15 15:37:28 INFO  skipping build import with status 'Dismissed'
+2023.11.15 15:37:28 WARN  no build target for: /workspaces/spark-templates/build.sbt
+2023.11.15 15:37:41 WARN  no build target for: /workspaces/spark-templates/build.sbt
+2023.11.15 15:37:41 INFO  skipping build import with status 'Dismissed'
+Nov 15, 2023 3:44:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 795
+2023.11.15 15:44:25 WARN  no build target for: /workspaces/spark-templates/build.sbt
+2023.11.15 15:44:28 INFO  running '/usr/local/sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals2604629732480129864/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.15 15:44:32 INFO  [info] welcome to sbt 1.3.13 (Microsoft Java 11.0.14.1)
+2023.11.15 15:44:33 INFO  [info] loading settings for project spark-templates-build-build-build from metals.sbt ...
+2023.11.15 15:44:33 INFO  [info] loading project definition from /workspaces/spark-templates/project/project/project
+2023.11.15 15:44:36 INFO  [info] loading settings for project spark-templates-build-build from metals.sbt ...
+2023.11.15 15:44:36 INFO  [info] loading project definition from /workspaces/spark-templates/project/project
+2023.11.15 15:44:41 INFO  [success] Generated .bloop/spark-templates-build-build.json
+2023.11.15 15:44:41 INFO  [success] Total time: 5 s, completed Nov 15, 2023, 3:44:41 PM
+2023.11.15 15:44:41 INFO  [info] loading settings for project spark-templates-build from plugins.sbt,metals.sbt ...
+2023.11.15 15:44:42 INFO  [info] loading project definition from /workspaces/spark-templates/project
+2023.11.15 15:44:44 INFO  [success] Generated .bloop/spark-templates-build.json
+2023.11.15 15:44:44 INFO  [success] Total time: 2 s, completed Nov 15, 2023, 3:44:44 PM
+2023.11.15 15:44:52 INFO  [info] loading settings for project spark-templates from build.sbt ...
+2023.11.15 15:44:52 INFO  [info] set current project to spark-templates (in build file:/workspaces/spark-templates/)
+2023.11.15 15:45:10 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2023.11.15 15:45:13 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2023.11.15 15:45:13 INFO  [success] Generated .bloop/spark-templates.json
+2023.11.15 15:45:13 INFO  [success] Generated .bloop/spark-templates-test.json
+2023.11.15 15:45:13 INFO  [success] Total time: 20 s, completed Nov 15, 2023, 3:45:13 PM
+2023.11.15 15:45:13 INFO  time: ran 'sbt bloopInstall' in 45s
+2023.11.15 15:45:13 INFO  Attempting to connect to the build server...
+2023.11.15 15:45:13 INFO  Setting up current java home /usr/local/sdkman/candidates/java/current in /home/codespace/.bloop/bloop.json
+2023.11.15 15:45:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspaces/spark-templates/.metals/bsp.trace.json or /home/codespace/.cache/metals/bsp.trace.json
+2023.11.15 15:45:21 INFO  Attempting to connect to the build server...
+2023.11.15 15:45:21 INFO  Bloop uses /usr/local/sdkman/candidates/java/current defined at /home/codespace/.bloop/bloop.json
+2023.11.15 15:45:21 INFO  Attempting to connect to the build server...
+2023.11.15 15:45:21 INFO  Bloop uses /usr/local/sdkman/candidates/java/current defined at /home/codespace/.bloop/bloop.json
+2023.11.15 15:45:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspaces/spark-templates/project/project/.metals/bsp.trace.json or /home/codespace/.cache/metals/bsp.trace.json
+2023.11.15 15:45:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspaces/spark-templates/project/.metals/bsp.trace.json or /home/codespace/.cache/metals/bsp.trace.json
+2023.11.15 15:45:22 INFO  time: Connected to build server in 8.48s
+2023.11.15 15:45:22 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.15 15:45:22 WARN  no build target for: /workspaces/spark-templates/build.sbt
+2023.11.15 15:45:22 INFO  time: Imported build in 0.39s
+2023.11.15 15:45:22 WARN  2.12.10 is no longer supported in the current Metals versions, using the last known supported version 0.11.12
+2023.11.15 15:45:47 INFO  no build target found for /workspaces/spark-templates/build.sbt. Using presentation compiler with project's scala-library version: 3.3.1
+Nov 15, 2023 3:45:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 826
+2023.11.15 15:45:58 INFO  time: indexed workspace in 35s
+2023.11.15 15:45:58 WARN  no build target for: /workspaces/spark-templates/.metals/template/SparkScalaSQLExample.scala
+2023.11.15 15:46:01 INFO  compiling spark-templates (2 scala sources)
+Nov 15, 2023 3:46:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 832
+Nov 15, 2023 3:46:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 833
+Nov 15, 2023 3:46:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 834
+Nov 15, 2023 3:46:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 844
+2023.11.15 15:46:21 INFO  time: code lens generation in 13s
+2023.11.15 15:46:21 INFO  time: code lens generation in 13s
+2023.11.15 15:46:21 INFO  time: code lens generation in 13s
+2023.11.15 15:46:21 INFO  time: code lens generation in 13s
+2023.11.15 15:46:21 INFO  time: code lens generation in 13s
+2023.11.15 15:46:47 INFO  time: compiled spark-templates in 45s
+2023.11.15 15:46:49 INFO  running '/usr/local/sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals9508894832190668737/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.15 15:46:57 INFO  [info] welcome to sbt 1.3.13 (Microsoft Java 11.0.14.1)
+2023.11.15 15:47:00 INFO  [info] loading settings for project spark-templates-build-build-build from metals.sbt ...
+2023.11.15 15:47:02 INFO  [info] loading project definition from /workspaces/spark-templates/project/project/project
+2023.11.15 15:47:05 INFO  [info] loading settings for project spark-templates-build-build from metals.sbt ...
+2023.11.15 15:47:05 INFO  [info] loading project definition from /workspaces/spark-templates/project/project
+2023.11.15 15:47:10 INFO  [success] Generated .bloop/spark-templates-build-build.json
+2023.11.15 15:47:10 INFO  [success] Total time: 5 s, completed Nov 15, 2023, 3:47:10 PM
+2023.11.15 15:47:10 INFO  [info] loading settings for project spark-templates-build from plugins.sbt,metals.sbt ...
+2023.11.15 15:47:10 INFO  [info] loading project definition from /workspaces/spark-templates/project
+2023.11.15 15:47:12 INFO  [success] Generated .bloop/spark-templates-build.json
+2023.11.15 15:47:12 INFO  [success] Total time: 1 s, completed Nov 15, 2023, 3:47:12 PM
+2023.11.15 15:47:12 INFO  [info] loading settings for project spark-templates from build.sbt ...
+2023.11.15 15:47:12 INFO  [info] set current project to spark-templates (in build file:/workspaces/spark-templates/)
+2023.11.15 15:47:18 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2023.11.15 15:47:18 INFO  [success] Generated .bloop/spark-templates-test.json
+2023.11.15 15:47:18 INFO  [success] Generated .bloop/spark-templates.json
+2023.11.15 15:47:18 INFO  [success] Total time: 6 s, completed Nov 15, 2023, 3:47:19 PM
+2023.11.15 15:47:19 INFO  time: ran 'sbt bloopInstall' in 30s
+2023.11.15 15:47:19 INFO  Disconnecting from Bloop session...
+2023.11.15 15:47:19 INFO  Shut down connection with build server.
+2023.11.15 15:47:19 INFO  Shut down connection with build server.
+2023.11.15 15:47:19 INFO  Shut down connection with build server.
+2023.11.15 15:47:19 INFO  Attempting to connect to the build server...
+2023.11.15 15:47:19 INFO  Bloop uses /usr/local/sdkman/candidates/java/current defined at /home/codespace/.bloop/bloop.json
+2023.11.15 15:47:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspaces/spark-templates/.metals/bsp.trace.json or /home/codespace/.cache/metals/bsp.trace.json
+2023.11.15 15:47:19 INFO  Attempting to connect to the build server...
+2023.11.15 15:47:19 INFO  Bloop uses /usr/local/sdkman/candidates/java/current defined at /home/codespace/.bloop/bloop.json
+2023.11.15 15:47:19 INFO  Attempting to connect to the build server...
+2023.11.15 15:47:19 INFO  Bloop uses /usr/local/sdkman/candidates/java/current defined at /home/codespace/.bloop/bloop.json
+2023.11.15 15:47:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspaces/spark-templates/project/project/.metals/bsp.trace.json or /home/codespace/.cache/metals/bsp.trace.json
+2023.11.15 15:47:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /workspaces/spark-templates/project/.metals/bsp.trace.json or /home/codespace/.cache/metals/bsp.trace.json
+2023.11.15 15:47:19 INFO  time: Connected to build server in 0.14s
+2023.11.15 15:47:19 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.15 15:47:19 INFO  time: Imported build in 0.11s
+2023.11.15 15:47:24 INFO  time: indexed workspace in 4.52s
+2023.11.15 15:47:24 WARN  no build target for: /workspaces/spark-templates/.metals/template/SparkScalaSQLExample.scala
+2023.11.15 15:47:24 INFO  compiling spark-templates (2 scala sources)
+2023.11.15 15:47:27 INFO  time: compiled spark-templates in 2.42s
+2023.11.15 15:47:32 INFO  compiling spark-templates (2 scala sources)
+2023.11.15 15:47:33 INFO  time: compiled spark-templates in 1.35s
+Nov 15, 2023 3:47:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 893
+Nov 15, 2023 3:47:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 895
+Nov 15, 2023 3:47:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 892
+2023.11.15 15:47:35 INFO  compiling spark-templates (2 scala sources)
+2023.11.15 15:47:36 INFO  time: compiled spark-templates in 1.06s
+2023.11.15 15:47:43 INFO  compiling spark-templates (2 scala sources)
+2023.11.15 15:47:43 INFO  time: compiled spark-templates in 0.81s
+2023.11.15 15:47:45 INFO  compiling spark-templates (2 scala sources)
+2023.11.15 15:47:45 INFO  time: compiled spark-templates in 0.56s
+2023.11.15 15:49:01 INFO  compiling spark-templates (2 scala sources)
+2023.11.15 15:49:01 INFO  time: compiled spark-templates in 0.18s
+2023.11.15 15:49:05 INFO  compiling spark-templates (2 scala sources)
+2023.11.15 15:49:08 INFO  time: compiled spark-templates in 2.91s
+Nov 15, 2023 3:55:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 984
+Nov 15, 2023 3:55:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 994
+Nov 15, 2023 4:06:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+2023.11.15 16:07:00 INFO  compiling spark-templates (1 scala source)
+2023.11.15 16:07:01 INFO  Deduplicating compilation of spark-templates from bsp client 'Metals 1.1.0' (since 19m 41.877s)
+2023.11.15 16:07:01 INFO  compiling spark-templates (1 scala source)
+2023.11.15 16:07:01 INFO  time: compiled spark-templates in 0.89s
+Nov 15, 2023 4:13:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1069
+Nov 15, 2023 4:13:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1102
+Nov 15, 2023 4:13:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1112
+Nov 15, 2023 4:15:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1125
+2023.11.15 16:15:19 INFO  running '/usr/local/sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals11212891432275715588/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.15 16:15:24 INFO  [info] welcome to sbt 1.3.13 (Microsoft Java 11.0.14.1)
+2023.11.15 16:15:25 INFO  user cancelled sbt bloopInstall
+2023.11.15 16:15:26 INFO  time: ran 'sbt bloopInstall' in 7.08s
+Nov 15, 2023 4:26:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1146
