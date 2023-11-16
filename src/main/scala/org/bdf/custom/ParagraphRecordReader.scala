@@ -25,8 +25,7 @@ class ParagraphRecordReader extends RecordReader[LongWritable, Text] {
   val tempBuffer1 = MutableList[Int]();
   val tempBuffer2 = MutableList[Int]();
 
-  val endTag1 = "COPY".getBytes();
-  val endTag2 = "\\.".getBytes();
+  val endTag = "\\.".getBytes();
 
   @throws(classOf[IOException])
   @throws(classOf[InterruptedException])
@@ -42,7 +41,7 @@ class ParagraphRecordReader extends RecordReader[LongWritable, Text] {
     fsin.seek(start);
 
     if (start != 0) {
-      readUntilMatch(endTag1, endTag2, false);
+      readUntilMatch(endTag, false);
     }
   }
 
@@ -50,7 +49,7 @@ class ParagraphRecordReader extends RecordReader[LongWritable, Text] {
   override def nextKeyValue(): Boolean = {
     if (!stillInChunk) return false;
 
-    val status = readUntilMatch(endTag1, endTag2, true);
+    val status = readUntilMatch(endTag, true);
 
     value = new Text();
     value.set(buffer.getData(), 0, buffer.getLength());
@@ -89,38 +88,19 @@ class ParagraphRecordReader extends RecordReader[LongWritable, Text] {
   }
 
   @throws(classOf[IOException])
-  def readUntilMatch(match1: Array[Byte], match2: Array[Byte], withinBlock: Boolean): Boolean = {
+  def readUntilMatch(matched: Array[Byte], withinBlock: Boolean): Boolean = {
     var i = 0;
-    var j = 0;
     while (true) {
       val b = fsin.read();
       if (b == -1) return false;
-
-      if (b == match1(i)) {
-        tempBuffer1.+=(b)
+      if (withinBlock) buffer.write(b);
+      if (b == matched(i)) {
         i = i + 1;
-        if (i >= match1.length) {
-          tempBuffer1.clear()
+        if (i >= matched.length) {
           return fsin.getPos() < end;
         }
-      } else if (b == match2(j)) {
-        tempBuffer2.+=(b)
-        j = j + 1;
-        if (j >= match2.length) {
-          tempBuffer2.clear()
-          return fsin.getPos() < end;
-        }
-      } else {
-        if (tempBuffer1.size != 0)
-          tempBuffer1.foreach { x => if (withinBlock) buffer.write(x) }
-        else if (tempBuffer2.size != 0)
-          tempBuffer2.foreach { x => if (withinBlock) buffer.write(x) }
-        tempBuffer1.clear()
-        tempBuffer2.clear()
-        if (withinBlock) buffer.write(b);
-        i = 0;
-        j = 0;
-      }
+      } 
+      else i = 0;
     }
     return false;
   }
