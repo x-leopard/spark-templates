@@ -1,18 +1,16 @@
 package org.bdf.custom
 
-import org.apache.hadoop.mapreduce.lib.input.{FileSplit, TextInputFormat }
-import org.apache.hadoop.mapreduce.{InputSplit, RecordReader, TaskAttemptContext}
-import scala.io.Source
-import org.apache.hadoop.mapreduce._
+import org.apache.hadoop.io.{LongWritable, Text}
 
-import org.apache.hadoop.io.LongWritable
-import org.apache.hadoop.io.Text
-import org.apache.hadoop.fs.FSDataInputStream
-import scala.collection.mutable.MutableList
-import java.io.IOException
+import org.apache.hadoop.mapreduce.{InputSplit, RecordReader, TaskAttemptContext, JobContext}
+import org.apache.hadoop.fs.Path
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat
 
-class CustomInputFormat extends TextInputFormat {
-  override def createRecordReader(inputSplit: InputSplit,  taskAttemptContext: TaskAttemptContext): RecordReader[LongWritable, Text] = {
-    return new ParagraphRecordReader();
+
+class CustomInputFormat extends FileInputFormat[LongWritable, Text] {
+
+  override def createRecordReader(split: InputSplit, context: TaskAttemptContext): RecordReader[LongWritable, Text] = {
+    new CustomRecordReader
   }
+
 }
