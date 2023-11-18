@@ -10,7 +10,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat
 class CustomInputFormat extends FileInputFormat[LongWritable, Text] {
 
   override def createRecordReader(split: InputSplit, context: TaskAttemptContext): RecordReader[LongWritable, Text] = {
-    new ParagraphRecordReader
+    new CustomRecordReader
   }
 
 }
