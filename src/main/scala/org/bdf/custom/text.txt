@@ -1,0 +1,9 @@
+This macro takes three parameters:
+
+COPY table_name: The name of the table to stage.
+temp_table_name: The name of the temporary table to stage to.
+\.
+test_query: The query to run tests on the temporary table.
+COPY "'34'": The name of the table to stage.
+t(-ggd).
+\.
