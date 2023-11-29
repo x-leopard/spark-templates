@@ -1,6 +1,6 @@
 
 ThisBuild / organization := "com.bdf.custom"
-ThisBuild / version := "0.0.3.1"
+ThisBuild / version := "0.0.7"
 ThisBuild / scalaVersion := "2.11.12"
 ThisBuild / resolvers += Resolver.mavenLocal
 
