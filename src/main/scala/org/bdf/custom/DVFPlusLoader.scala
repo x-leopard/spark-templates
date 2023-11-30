@@ -31,7 +31,7 @@ object MainDVFPlusLoader {
     val tableNameRegex = """\S*\.(\w+)\s+""".r
     // Write data parsed from initial sql file to Hive tables in database `dataBase`
     logger.info("Writing data from initial sql file (DVF+) into Hive tables")
-    writerRddtoHive(pairedRddInitial, tableColumnsRdd, tableNameRegex, tablePattern="".r)   
+    writerRddtoHive(pairedRddInitial, tableColumnsRdd, tableNameRegex)   
     // Read main sql file(s).
     val pairedRddMAin = sc.newAPIHadoopFile(SqlFilesMain, classOf[CustomInputFormat], classOf[LongWritable], classOf[Text], sc.hadoopConfiguration)
     // Write data parsed from main sql file(s) to Hive tables in database `dataBase`
