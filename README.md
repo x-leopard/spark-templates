@@ -17,3 +17,7 @@ One stop shop for all your spark starter codes.
 
     Uses Maven as the build system and also includes docker files for publishing as docker images.
     Check out the template specific readme for more information, here: [README](java-template/readme.md)
+
+To compile the project into a JAR file, type:
+
+> sbt clean package .
