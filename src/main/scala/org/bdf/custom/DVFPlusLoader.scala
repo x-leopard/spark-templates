@@ -36,7 +36,7 @@ object MainDVFPlusLoader {
     val pairedRddMAin = sc.newAPIHadoopFile(SqlFilesMain, classOf[CustomInputFormat], classOf[LongWritable], classOf[Text], sc.hadoopConfiguration)
     // Write data parsed from main sql file(s) to Hive tables in database `dataBase`
     logger.info("Writing data from main sql file(s) (DVF+) into Hive tables")
-    writerRddtoHive(pairedRddMAin, tableColumnsRdd, tableRegex="".r, tablePattern="".r)
+    writerRddtoHive(pairedRddMAin, tableColumnsRdd, tableNameRegex)
 
     spark.stop()
   }
