@@ -1,6 +1,11 @@
 import org.apache.spark.sql.types._
 
-// Define a function that converts PostgreSQL types to Spark SQL types
+/**
+ * Maps PostgreSQL data types to Spark SQL data types.
+ *
+ * @param postgresType The PostgreSQL data type as a string.
+ * @return Corresponding Spark SQL data type.
+ */
 def postgresToSparkType(postgresType: String): DataType = {
   // Use a match expression to handle different cases
   postgresType match {
