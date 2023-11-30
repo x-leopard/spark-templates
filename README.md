@@ -19,4 +19,5 @@ One stop shop for all your spark starter codes.
     Check out the template specific readme for more information, here: [README](java-template/readme.md)
 
 To compile the project into a JAR file, type:
-sbt clean package .
+
+> sbt clean package .
