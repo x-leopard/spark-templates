@@ -27,17 +27,17 @@ object MainDVFPlusLoader {
     // Extract the column names aand their types for each table in the CREATE TABLE statements from the initial sql file.
     val tableColumnsInfoRdd =  getTableInfofromPairedRdd(pairedRddInitial)
     // Define a regular expression pattern to match lines containing table names from initial dump sql file.
-    val tableInitialRegex = """\S*\.(\w+)\s+""".r
+    val copyTableInitialRegex = """\S*\.(\w+)\s+""".r
     // Write data parsed from initial sql file to Hive tables in database `dataBase`
     println("Writing data from initial sql file (DVF+) into Hive tables")
-    writerRddtoHive(pairedRddInitial, tableColumnsInfoRdd, tableInitialRegex, dataBase)   
+    writerRddtoHive(pairedRddInitial, tableColumnsInfoRdd, copyTableInitialRegex, dataBase)   
     // Read main sql file(s).
     val pairedRddMAin = sc.newAPIHadoopFile(SqlFilesMain, classOf[CustomInputFormat], classOf[LongWritable], classOf[Text], sc.hadoopConfiguration)
     // Define a regular expression pattern to match lines containing table names from main dump sql file(s).
-    val tableMainRegex = """\w+_\w+.(\w+)\s+""".r
+    val copyTableMainRegex = """\w+_\w+.(\w+)\s+""".r
     // Write data parsed from main sql file(s) to Hive tables in database `dataBase`
     println("Writing data from main sql file(s) (DVF+) into Hive tables")
-    writerRddtoHive(pairedRddMAin, tableColumnsInfoRdd, tableMainRegex, dataBase)
+    writerRddtoHive(pairedRddMAin, tableColumnsInfoRdd, copyTableMainRegex, dataBase)
 
     spark.stop()
   }
